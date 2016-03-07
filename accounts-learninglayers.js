@@ -37,7 +37,10 @@ if (Meteor.isClient) {
       loginStyle: loginStyle,
       loginUrl: loginUrl,
       credentialRequestCompleteCallback: credentialRequestCompleteCallback,
-      credentialToken: credentialToken
+      credentialToken: credentialToken,
+      popupOptions: {
+        height: 482
+      }
     });
   };
 
