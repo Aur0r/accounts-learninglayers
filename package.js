@@ -1,6 +1,6 @@
 Package.describe({
   name: 'aur0r:accounts-learninglayers',
-  version: '0.0.6',
+  version: '0.0.7',
   summary: 'Login service for LearningLayers accounts',
   git: 'https://github.com/Aur0r/accounts-learninglayers',
   documentation: 'README.md'
