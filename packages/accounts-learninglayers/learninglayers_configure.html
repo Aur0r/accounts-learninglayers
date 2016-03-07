@@ -1,0 +1,16 @@
+<template name="configureLoginServiceDialogForLearninglayers">
+    <p>
+        First, you'll need to get a Learning Layers Client ID. Follow these steps:
+    </p>
+    <ol>
+        <li>
+            Visit <a href="https://api.learning-layers.eu/o/oauth2/manage/dev/dynreg" target="blank">https://api.learning-layers.eu/o/oauth2/manage/dev/dynreg</a>
+        </li>
+        <li>
+            Set Homepage URL to: <span class="url">{{siteUrl}}</span>
+        </li>
+        <li>
+            Set Authorization callback URL to: <span class="url">{{siteUrl}}_oauth/learninglayers</span>
+        </li>
+    </ol>
+</template>
